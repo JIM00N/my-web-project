@@ -3,10 +3,12 @@ from model.creature import Creature
 _creatures = [
     Creature(name="Yeti",
              aka="Abominable Snowman",
+             area="Himalayas",
              country="CN",
              description="A large ape-like creature said to inhabit the Himalayan mountains."),
     Creature(name="Bigfoot",
              aka="Sasquatch",
+             area="*",
              country="US",
              description="A large hairy humanoid said to inhabit North American forests.")
 ]
